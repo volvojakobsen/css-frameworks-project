@@ -1,1 +1,6 @@
-@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap.min.css";
+
+.container {
+  color: blueviolet;
+  background-color: blueviolet;
+}
