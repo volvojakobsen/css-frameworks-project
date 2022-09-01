@@ -1,4 +1,9 @@
-$primary: rgba(99, 196, 214, 0.474);
+@import "variables.scss";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary: #8bdb7d;
+$post: #59d936;
 
 * {
   box-sizing: border-box;
@@ -31,6 +36,10 @@ main {
   background-color: $primary;
 }
 
+.container-xl {
+  background-color: $primary;
+}
+
 .profile-pictures {
   max-width: 20%;
   height: fit-content;
@@ -38,6 +47,14 @@ main {
 
 .post-text-content {
   background-color: aliceblue;
+}
+
+.card-body {
+  background-color: $post;
+}
+
+.profile-post {
+  flex: 1 1 100%;
 }
 
 .copyright {
