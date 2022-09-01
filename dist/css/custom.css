@@ -26,7 +26,16 @@ main {
 }
 
 .container {
-  background-color: palegreen;
+  background-color: rgba(99, 196, 214, 0.474);
+}
+
+.profile-pictures {
+  max-width: 20%;
+  height: fit-content;
+}
+
+.post-text-content {
+  background-color: aliceblue;
 }
 
 .copyright {
