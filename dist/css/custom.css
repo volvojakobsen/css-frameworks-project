@@ -10758,25 +10758,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 main {
   flex: 1 1 100%;
-}
-
-.h-center {
-  text-align: center;
 }
 
 .o-center {
@@ -10808,10 +10791,6 @@ main {
 
 .profile-post {
   flex: 1 1 100%;
-}
-
-.copyright {
-  text-align: center;
 }
 
 /*# sourceMappingURL=custom.css.map */
