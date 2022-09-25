@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="dist/css/custom.css" />
-    <title>Title</title>
+    <title>boomer Forum | profile page</title>
   </head>
   <body class="min-vh-100 d-flex flex-column">
     <div class="container">
@@ -34,6 +34,15 @@
           </svg>
           <span class="fs-4">Boomer Forum</span>
         </a>
+        <form>
+          <div class="mb-4">
+            <div class="d-flex flex-row s-1">
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="search">
+              <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+          </div>
+        </form>
         <ul class="nav nav-pills">
           <li class="nav-item">
             <a href="index.html" class="nav-link">HOME</a>
@@ -53,23 +62,23 @@
         <div style="width: 30%">
           <img
             src="/images/profile.jpg"
-            style="max-width: 300px"
+            style="max-width: 90%"
             alt="profile picture"
           />
         </div>
         <div class="text-center col" style="width: 50%">
           <h2>user info</h2>
           <div class="row">
-            <div class="text-center col" style="width: 50%">
+            <div class="text-center col" style="width: 40%">
               <p>name:</p>
               <p>email:</p>
               <p>age:</p>
               <p>gender:</p>
               <p>password:</p>
             </div>
-            <div class="text-center col" style="width: 50%">
+            <div class="text-center col" style="width: 60%">
               <p>Andy Bobandy</p>
-              <p>doxingMyself@wikkileaks.no</p>
+              <p>self@self.no</p>
               <p>32</p>
               <p>male</p>
               <button type="button" class="btn btn-primary btn-sm">
@@ -95,137 +104,78 @@
         </div>
       </div>
       <h2 class="text-center">Most recent</h2>
-      <div class="container my-3 d-flex">
-        <div
-          class="card-body m-4 col"
-          style="width: 20rem; background-color: rgb(105, 159, 168)"
-        >
-          <div class="m-3">
-            <h5 class="card-title">by:</h5>
-            <h4>Peter Griffin</h4>
+      <div class="container my-3 d-flex flex-wrap o-center">
+        <div class="card" style="max-width: 300px">
+          <img src="images/Peter-Griffin.jpg" class="card-img-top" alt="peter-profile pic" style="max-width: 300px">
+          <div class="card-body">
+            <h5 class="card-title">Peter-Griffin</h5>
+            <p class="card-text">i was here first nehehehehe.</p>
+            <a href="#" class="btn m-3 btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-heart-fill" viewBox="0 0 16 16">                <path fill-rule="evenodd"
+                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+              </svg>
+              <span> Like</span>
+            </a>
           </div>
-          <p class="card-text m-3">i was here first! nenenenenennee....</p>
-          <a href="#" class="btn m-3 btn-primary">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-heart-fill"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
-              />
-            </svg>
-            <span> Like</span>
-          </a>
         </div>
-        <div
-          class="card-body m-4"
-          style="width: 20rem; background-color: rgb(105, 159, 168)"
-        >
-          <div class="m-3">
-            <h5 class="card-title">by:</h5>
-            <h4>Randy marsh</h4>
+        <div class="card" style="max-width: 300px">
+          <img src="images/index.jpg" class="card-img-top" alt="profile-pic randy" style="max-width: 300px">
+          <div class="card-body">
+            <h5 class="card-title">Randy Marsh</h5>
+            <p class="card-text">witch party at my house tonight!</p>
+            <a href="#" class="btn m-3 btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-heart-fill" viewBox="0 0 16 16">                <path fill-rule="evenodd"
+                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+              </svg>
+              <span> Like</span>
+            </a>
           </div>
-          <p class="card-text m-3">witch party at my house tonight!</p>
-          <a href="#" class="btn m-3 btn-primary">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-heart-fill"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
-              />
-            </svg>
-            <span> Like</span>
-          </a>
         </div>
-        <div
-          class="card-body m-4"
-          style="width: 20rem; background-color: rgb(105, 159, 168)"
-        >
-          <div class="m-3">
-            <h5 class="card-title">by:</h5>
-            <h4>G. Broflovski</h4>
+        <div class="card" style="width: 300px;">
+          <img src="images/gerald.jpg" class="card-img-top" alt="profile.pic gerald" style="max-width: 300px">
+          <div class="card-body">
+            <h5 class="card-title">Gerald Broflovski</h5>
+            <p class="card-text">will there be crack and wiskey?</p>
+            <a href="#" class="btn m-3 btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-heart-fill" viewBox="0 0 16 16">                <path fill-rule="evenodd"
+                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+              </svg>
+              <span> Like</span>
+            </a>
           </div>
-          <p class="card-text m-3">will there be crack and wiskey?</p>
-          <a href="#" class="btn m-3 btn-primary">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-heart-fill"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
-              />
-            </svg>
-            <span> Like</span>
-          </a>
         </div>
-        <div
-          class="card-body m-4"
-          style="width: 20rem; background-color: rgb(105, 159, 168)"
-        >
-          <div class="m-3">
-            <h5 class="card-title">by:</h5>
-            <h4>Randy Marsh</h4>
+        <div class="card" style="width: 300px;">
+          <img src="images/index.jpg" class="card-img-top" alt="profile-pic randy" style="max-width: 300px">
+          <div class="card-body">
+            <h5 class="card-title">Randy Marsh</h5>
+            <p class="card-text">it would not be a witch party without.</p>
+            <a href="#" class="btn m-3 btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-heart-fill" viewBox="0 0 16 16">                <path fill-rule="evenodd"
+                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+              </svg>
+              <span> Like</span>
+            </a>
           </div>
-          <p class="card-text m-3">it would not be a witch party without.</p>
-          <a href="#" class="btn m-5 btn-primary">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-heart-fill"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
-              />
-            </svg>
-            <span> Like</span>
-          </a>
         </div>
-        <div
-          class="card-body m-4"
-          style="width: 20rem; background-color: rgb(105, 159, 168)"
-        >
-          <div class="m-3">
-            <h5 class="card-title">by:</h5>
-            <h4>Peter Griffin</h4>
+        <div class="card" style="width: 300px">
+          <img src="images/Peter-Griffin.jpg" class="card-img-top" alt="profile-pic Peter-Griffin" style="max-width: 300px">
+          <div class="card-body">
+            <h5 class="card-title">Peter Griffin</h5>
+            <p class="card-text">can i come?</p>
+            <a href="#" class="btn m-3 btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-heart-fill" viewBox="0 0 16 16">                <path fill-rule="evenodd"
+                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+              </svg>
+              <span> Like</span>
+            </a>
           </div>
-          <p class="card-text m-3">can i come?</p>
-          <a href="#" class="btn m-5 btn-primary">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-heart-fill"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
-              />
-            </svg>
-            <span> Like</span>
-          </a>
         </div>
+      </div>
       </div>
     </main>
     <footer>
