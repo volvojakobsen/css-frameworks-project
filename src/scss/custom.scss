@@ -9,23 +9,12 @@ main {
   flex: 1 1 100%;
 }
 
-.o-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .container {
   background-color: $primary;
 }
 
 .container-xl {
   background-color: $primary;
-}
-
-.profile-pictures {
-  max-width: 20%;
-  height: fit-content;
 }
 
 .post-text-content {

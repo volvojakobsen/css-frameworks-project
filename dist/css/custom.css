@@ -10762,23 +10762,12 @@ main {
   flex: 1 1 100%;
 }
 
-.o-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .container {
   background-color: #8bdb7d;
 }
 
 .container-xl {
   background-color: #8bdb7d;
-}
-
-.profile-pictures {
-  max-width: 20%;
-  height: fit-content;
 }
 
 .post-text-content {
